@@ -1,0 +1,433 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 952992200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate Create Customer API with valid Auth Key",
+        "description": "",
+        "id": "validate-create-customer-api;validate-create-customer-api-with-valid-auth-key;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 654300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 229971000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have valid auth key",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.i_have_valid_auth_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60181100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have Balance amount 5000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 22
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.i_have_Balance_amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13231900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have Description \"This is new Customer 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is new Customer 1\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.i_have_Description(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3197393100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send post request",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.i_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2919900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44041300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the field \"\u003cid\u003e\" should in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cid\u003e\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_field_should_in_the_response(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 793756200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the Balance amount should be 5000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 29
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_Balance_amount_should_be(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@create_customer_API"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4201800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate Create Customer API with valid Auth Key",
+        "description": "",
+        "id": "validate-create-customer-api;validate-create-customer-api-with-valid-auth-key;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 207500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1349200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have valid auth key",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.i_have_valid_auth_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 864200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have Balance amount 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 22
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.i_have_Balance_amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have Description \"This is new Customer 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is new Customer 2\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.i_have_Description(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 743841200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send post request",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.i_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1207200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the field \"\u003cid\u003e\" should in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cid\u003e\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_field_should_in_the_response(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31215400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the Balance amount should be 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 29
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_Balance_amount_should_be(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@create_customer_API"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4335400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validate Create Customer API with In-valid Auth Key",
+        "description": "",
+        "id": "validate-create-customer-api;validate-create-customer-api-with-in-valid-auth-key;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 125500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1698600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I have In-valid auth key",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.i_have_In_valid_auth_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 373600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I have Balance amount 5000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 22
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.i_have_Balance_amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407923200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I send post request",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.i_send_post_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the status code should be 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 26
+                }
+              ],
+              "location": "Create_New_Customer_with_ValidKey.the_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the field id should not be in the response",
+            "match": {
+              "location": "Create_New_Customer_with_ValidKey.the_field_id_should_not_be_in_the_response()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@create_customer_API"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Create Customer API",
+    "description": "  This feature will check Create new Customer API with valid and in-valid auth key",
+    "id": "validate-create-customer-api",
+    "keyword": "Feature",
+    "uri": "./src/test/feature_file/Create_Customer.feature",
+    "tags": [
+      {
+        "name": "@create_customer_API",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
