@@ -1,4 +1,6 @@
 stepdefnitions\Login_Test.class
+stepdefnitions\Update_Customer.class
 runner\RunCuke.class
+stepdefnitions\Retrieve_Customer.class
 stepdefnitions\Create_New_Customer_with_ValidKey.class
 stepdefnitions\Hooks.class

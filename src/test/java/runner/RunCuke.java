@@ -20,7 +20,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features="./src/test/feature_file/",
 		glue= "stepdefnitions",
 		monochrome=true,
-		strict=false
+		strict=true
 		
 		)
 public class RunCuke extends AbstractTestNGCucumberTests  {

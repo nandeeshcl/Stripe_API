@@ -1,4 +1,4 @@
-@create_customer_API
+@create_customer_api
 Feature: Validate Create Customer API
   This feature will check Create new Customer API with valid and in-valid auth key
 

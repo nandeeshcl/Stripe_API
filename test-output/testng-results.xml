@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5657" started-at="2019-10-13T15:25:43Z" finished-at="2019-10-13T15:25:49Z">
+  <suite name="Suite" duration-ms="6654" started-at="2019-10-17T11:37:27Z" finished-at="2019-10-17T11:37:34Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="5657" started-at="2019-10-13T15:25:43Z" finished-at="2019-10-13T15:25:49Z">
+    <test name="Test" duration-ms="6654" started-at="2019-10-17T11:37:27Z" finished-at="2019-10-17T11:37:34Z">
       <class name="runner.RunCuke">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCuke@f6c48ac]" name="setUpClass" is-config="true" duration-ms="167" started-at="2019-10-13T20:55:43Z" finished-at="2019-10-13T20:55:43Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCuke@f6c48ac]" name="setUpClass" is-config="true" duration-ms="115" started-at="2019-10-17T17:07:27Z" finished-at="2019-10-17T17:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="4138" started-at="2019-10-13T20:55:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-13T20:55:48Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="3578" started-at="2019-10-17T17:07:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-17T17:07:31Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="784" started-at="2019-10-13T20:55:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-13T20:55:48Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="824" started-at="2019-10-17T17:07:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-17T17:07:32Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="387" started-at="2019-10-13T20:55:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-13T20:55:49Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="472" started-at="2019-10-17T17:07:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-17T17:07:32Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCuke@f6c48ac]" name="tearDownClass" is-config="true" duration-ms="103" started-at="2019-10-13T20:55:49Z" finished-at="2019-10-13T20:55:49Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="762" started-at="2019-10-17T17:07:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-17T17:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Retrieve Customer API with valid key"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Retrieve Customer API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@f6c48ac]" name="runScenario" duration-ms="790" started-at="2019-10-17T17:07:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-10-17T17:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Update Customer API with valid key"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Update Customer API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCuke@f6c48ac]" name="tearDownClass" is-config="true" duration-ms="56" started-at="2019-10-17T17:07:34Z" finished-at="2019-10-17T17:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

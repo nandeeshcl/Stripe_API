@@ -23,7 +23,7 @@
         <version>2.22.1</version>
         <configuration>
 <systemPropertyVariables>
-<environment>${Denvironment}</environment>
+<!-- <environment>${Denvironment}</environment> -->
 </systemPropertyVariables>
 <testFailureIgnore>false</testFailureIgnore>
           <suiteXmlFiles>

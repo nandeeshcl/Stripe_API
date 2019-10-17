@@ -17,10 +17,7 @@ public class Create_New_Customer_with_ValidKey extends BaseClass {
 	
 	@Given("I have valid auth key")
 	public void i_have_valid_auth_key() {
-
-		reqSpecs = given().auth().basic(configProperty.getValidAuthKey(), "");
-		
-		
+		reqSpecs =given().auth().basic(configProperty.getValidAuthKey(),"");
 	}
 
 	@Given("I have Balance amount {int}")

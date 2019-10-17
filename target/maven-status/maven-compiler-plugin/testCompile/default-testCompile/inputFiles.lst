@@ -1,4 +1,6 @@
 C:\Users\User\Desktop\N\STRIPE_API\src\test\java\stepdefnitions\Create_New_Customer_with_ValidKey.java
 C:\Users\User\Desktop\N\STRIPE_API\src\test\java\stepdefnitions\Login_Test.java
+C:\Users\User\Desktop\N\STRIPE_API\src\test\java\stepdefnitions\Retrieve_Customer.java
 C:\Users\User\Desktop\N\STRIPE_API\src\test\java\runner\RunCuke.java
 C:\Users\User\Desktop\N\STRIPE_API\src\test\java\stepdefnitions\Hooks.java
+C:\Users\User\Desktop\N\STRIPE_API\src\test\java\stepdefnitions\Update_Customer.java
